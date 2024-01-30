@@ -10,10 +10,10 @@
 #define BACKGROUND_WHITE BACKGROUND_RED | BACKGROUND_GREEN | BACKGROUND_BLUE
 char *suits[] = {"\u2665", "\u2666", "\u2663", "\u2660"};
 char *ranks[] = {"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"};
-/*"\u2665" représente le symbole du cœur (Heart),
-"\u2666" représente le symbole du carreau (Diamond),
-"\u2663" représente le symbole du trèfle (Club),
-"\u2660" représente le symbole du pique (Spade).*/
+/*"\u2665" reprÃ©sente le symbole du cÅ“ur (Heart),
+"\u2666" reprÃ©sente le symbole du carreau (Diamond),
+"\u2663" reprÃ©sente le symbole du trÃ¨fle (Club),
+"\u2660" reprÃ©sente le symbole du pique (Spade).*/
 
 void initializePile(Pile *pile) {
     pile->top = NULL;
@@ -109,7 +109,6 @@ Card **generateFullDeck() {
 
 void FillDeck(Zone *Deck) {
     Card **myDeck = generateFullDeck();
-    initializeZone(Deck, 8);
     int i = 0;
 
     // Fill columns col1 to col4 with 7 cards each
