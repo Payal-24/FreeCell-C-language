@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1705932569 source:c:\users\lenovo\desktop\c\freecell_abdenour_chenouf\function.c
+	"function.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<time.h>
+
+1706274490 c:\users\lenovo\desktop\c\freecell_abdenour_chenouf\function.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<time.h>
+	<stdbool.h>
+
+1706274490 source:c:\users\lenovo\desktop\c\freecell_abdenour_chenouf\main.c
+	"function.h"
+
+1706541004 source:c:\users\lenovo\desktop\c\chenouf_abdenour\source_code\main.c
+	"function.h"
+
+1706541209 c:\users\lenovo\desktop\c\chenouf_abdenour\source_code\function.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<time.h>
+	<stdbool.h>
+
+1706541209 source:c:\users\lenovo\desktop\c\chenouf_abdenour\source_code\function.c
+	"function.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<time.h>
+
+1706274490 c:\users\lenovo\desktop\c\chenouf_abdenour\source_code\header\function.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<time.h>
+	<stdbool.h>
+
