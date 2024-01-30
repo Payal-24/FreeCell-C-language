@@ -23,17 +23,9 @@ void initializePile(Pile *pile) {
 void initializeZone(Zone *zone, int numColumns) {
     zone->num_columns = numColumns;
     zone->pile = (Pile **)malloc(numColumns * sizeof(Pile *));
-    if (zone->pile == NULL) {
-        fprintf(stderr, "Memory allocation failed.\n");
-        exit(EXIT_FAILURE);
-    }
 
     for (int i = 0; i < numColumns; i++) {
         zone->pile[i] = (Pile *)malloc(sizeof(Pile));
-        if (zone->pile[i] == NULL) {
-            fprintf(stderr, "Memory allocation failed.\n");
-            exit(EXIT_FAILURE);
-        }
         initializePile(zone->pile[i]);
     }
 }
@@ -131,7 +123,7 @@ void initializeGame(Zone *Deck, Zone *Temp, Zone *Goal) {
     initializeZone(Temp, 4);
     initializeZone(Goal, 4);
     initializeZone(Deck,8);
-    // Refill the Deck
+    // fill the Deck
     FillDeck(Deck);
 }
 
