@@ -7,7 +7,7 @@ int main() {
     srand(time(NULL));
     initializeGame(Deck,Temp,Goal);
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
-    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleOutputCP(CP_UTF8);//set the console to be able to read utf8 code
     int choice;
     while (true) {
         // Clear the console screen
